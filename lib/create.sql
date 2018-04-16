@@ -19,3 +19,8 @@ CREATE TABLE pledges (
   user_id INTEGER,
   project_id INTEGER
 );
+
+CREATE TABLE project_pledges (
+  project_id INTEGER,
+  pledge_amount INTEGER
+);
